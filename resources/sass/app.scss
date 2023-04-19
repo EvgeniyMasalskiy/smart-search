@@ -1,0 +1,21 @@
+
+  .switch-contents {
+    text-align: left;
+  }
+  input[name="layout"] {
+    display: none;
+    &:checked + label {
+      font-weight: bolder;
+      cursor: default;
+      
+    }
+  }
+  label {
+    display: inline-block;
+    margin: 0 1em;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+  }
+
